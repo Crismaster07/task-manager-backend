@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '', // Replace with your MySQL password
+  password: '', // no password
   database: 'task_manager'
 });
 
